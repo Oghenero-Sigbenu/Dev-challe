@@ -165,9 +165,10 @@ button{
 }
 @media screen and (max-width:400px){
    .jumbotron h1{
-       font-size: 21px;
+       font-size: 19px;
    }
   .container h2{
     font-size: 20px;
 
-  }  }
+  } 
+ }

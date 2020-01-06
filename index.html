@@ -20,18 +20,17 @@
 <body>
 	<nav class="navbar navbar-expand-sm animated fadeIn ">
 		<div class="container">
-			<a class="navbar-brand">
+			<a class="navbar-brand" href="index.html">
 				<img class="logo-light" src="images/logo.svg" alt="logo">
 			</a>
 			<div class="navbar-nav">
 				<div class="collapse navbar-collapse">
-					<a class="nav-item nav-link" routerLink="/save">Home</a>
-					<a class="nav-item nav-link" routerLink="/invest">Pages</a>
-					<a class="nav-item nav-link" routerLink="/borrow">Sections</a>
-					<a class="nav-item nav-link" routerLink="/borrow">Docs</a>
+					<a class="nav-item nav-link" >Home</a>
+					<a class="nav-item nav-link" href="plan.html" >Pages</a>
+					<a class="nav-item nav-link" >Sections</a>
+					<a class="nav-item nav-link" >Docs</a>
 				</div>
 			<div>
-		<!-- </div> -->
 			<div class="btn">
 				<a class="nav-item nav-link btn bg-primary color-white" href="form.html">Buy Now</a>
 				<app-hamburger (show)="hamburger($event)"></app-hamburger>
