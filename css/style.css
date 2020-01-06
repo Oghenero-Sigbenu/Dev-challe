@@ -1,5 +1,6 @@
 body {
     background-color:rgb(213, 234, 235) !important;
+    overflow-x: hidden;
 }
 .form-n{
     background-color:rgb(213, 234, 235) !important;
@@ -17,8 +18,8 @@ img {
  width: 80%;
 }
 .banner{
-    /* margin-top: 11rem;
-    margin-bottom: -4rem; */
+    /* margin-top: 11rem; */
+    margin-bottom: -4rem;
     bottom: 0px;
     padding-top: 5rem !important;
     right:0px;
@@ -106,6 +107,62 @@ button{
     .hold1 h4{
         padding-bottom: 2rem;
     }
+/* plan.html page */
+.plan .btn{
+    padding: 12px;
+    margin: -2px;
+    width: 130px; 
+}
+.plan{
+    border: 1px solid blue !important;
+    padding: 1px !important;
+}
+.bg{
+    background-color: white;
+    border-radius: 5px;
+}
+.bold{
+    text-emphasis-style: bold;
+    font-style: bold;
+    font-size: 60px;
+}
+.standard{
+    margin: -35px 0px;
+    color: white;
+    border-radius: 5px;
+    background-color:#2500cc;
+    padding: 0 -50px;
+}
+.standard .btn{
+    background-color: white;
+    color: blue;
+}
+.pri{
+    background-color:#2500cc;
+}
+.bg .btn{
+    background-color: #2500cc;
+    color: white;
+}
+.head{
+    background-color:blue;
+    width: 100% !important;
+}
+.bg li, .standard li{
+    margin: 8px;
+}
+.bg h5, .standard h5{
+    padding-top: 4rem;
+}
+.plans{
+    padding-bottom: 7rem;
+    padding-top: 3rem;
+}
+.plan2{
+    padding-bottom: 12rem;
+    background-color: aliceblue;
+    padding-top: 4rem;
+}
 @media screen and (max-width:400px){
    .jumbotron h1{
        font-size: 21px;
